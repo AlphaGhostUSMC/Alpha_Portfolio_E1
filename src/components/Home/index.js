@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import LogoTitle from "../../assets/images/Logo-Y1.png";
+import LogoTitle from "../../assets/images/Logo-Y.png";
 import './index.scss';
 
 const Home = () => {
@@ -12,9 +12,9 @@ const Home = () => {
         <img src={LogoTitle} alt="SysAdmin"/>
         ogesh Kumar
         <br />
-        Datacenter Administrator
+        IT Team Lead
         </h1>
-        <h2>Frontend Developer / JS Expert / Gamer</h2>
+        <h2>Senior System Engineer & IT Team Lead | Powershell Wizard | Python Programmer | Cloud Admin | AI Engineer</h2>
         <Link to="/contact" className='flat-button'>CONTACT ME</Link>
       </div>
     </div>

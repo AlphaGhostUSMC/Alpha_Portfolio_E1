@@ -16,6 +16,8 @@
       margin: 8px auto;
       width: 50px;
       height: auto;
+      animation: tada 2s linear;
+      animation-delay: 1.4s;
 
       &.sub-logo {
         width: 50px;
