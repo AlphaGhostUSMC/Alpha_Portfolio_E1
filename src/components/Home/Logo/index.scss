@@ -1,37 +1,38 @@
 .logo-container {
   z-index: 0;
   width: 400px;
-  height: 609px;
+  height: 610px;
   position: absolute;
   top: 0;
-  right: 15%;
+  right: 30%;
   bottom: 0;
   left: auto;
   margin: auto;
   opacity: 0;
 
-  svg {
+  .outline-logo {
     width: 100%;
     height: auto;
     bottom: 0;
-    transform: rotateZ(30deg) !important;
+    transform: rotateZ(30deg) !important; 
   }
 
   .solid-logo {
+    width: 100%;
     position: absolute;
-    top: auto;
-    right: auto;
     bottom: auto;
     left: 0;
     margin: auto;
-    width: 100%;
-    opacity: 0;
+    top: auto;
+    right: auto;
+    height: auto;
     transform: rotateZ(30deg);
+    opacity: 0;
     z-index: 1;
   }
 }
 
 .svg-container {
   stroke: #ffd700;
-  stroke-width: 10;
+  stroke-width: 1px;
 }
