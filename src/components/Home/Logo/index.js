@@ -38,7 +38,7 @@ const Logo = () => {
       <svg version="1.0" className='outline-logo' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
 	 viewBox="0 0 700 1000">
 <g className="svg-container"
-  //  transform="translate(0,457) scale(.1 -.1)"
+   transform='translate(50, -50)'
 	 fill="none"
 >
 <path 
